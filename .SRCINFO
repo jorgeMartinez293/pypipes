@@ -1,0 +1,14 @@
+pkgbase = pypipes-git
+	pkgdesc = A python recreation of 'pipes.sh' with a few custom arguments
+	pkgver = rX
+	pkgrel = 1
+	url = https://github.com/jorgeMartinez293/pypipes
+	arch = any
+	license = MIT
+	depends = python
+	provides = pypipes
+	conflicts = pipes-py
+	source = pypipes-git::git+https://github.com/jorgeMartinez293/pypipes.git
+	sha256sums = SKIP
+
+pkgname = pypipes-git
